@@ -48,11 +48,11 @@
 </script>
 
 <svelte:head>
-	<title>Discord Tickets</title>
+	<title>IGNIS Tickets</title>
 	<link rel="icon" href="/favicon.png" />
 </svelte:head>
 
-<div class="absolute h-max min-h-screen w-full" style={`background-image: url("/assets/topgg-${theme}.webp")`}>
+<div class="absolute h-max min-h-screen w-full bg-ignis-light dark:bg-ignis-dark">
 	<Modals>
 		{#snippet backdrop({ close })}
 			<div
