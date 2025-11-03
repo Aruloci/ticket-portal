@@ -63,12 +63,14 @@
 	pointer-events: none;
 }
 
-.dark\:bg-slate-700:is(.dark *) {
+@layer utilities {
+  .dark .dark\:bg-slate-700 {
     --tw-bg-opacity: 1;
-    background-color: rgb(25 27 30 / var(--tw-bg-opacity, 1))
-}
+    background-color: rgb(25 27 30 / var(--tw-bg-opacity)) !important;
+  }
 
-.dark\:bg-slate-800:is(.dark *) {
+  .dark .dark\:bg-slate-800 {
     --tw-bg-opacity: 1;
-    background-color: rgb(31 34 38 / var(--tw-bg-opacity, 1))
+    background-color: rgb(31 34 38 / var(--tw-bg-opacity)) !important;
+  }
 }
