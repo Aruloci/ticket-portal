@@ -16,8 +16,7 @@
 </svelte:head>
 
 <div
-	class="min-h-screen bg-cover bg-no-repeat"
-	style={`background-image: url("/assets/topgg-${theme}.webp")`}
+	class="min-h-screen bg-cover bg-no-repeat bg-ignis-light dark:bg-ignis-dark"
 >
 	<div
 		class="min-h-screen bg-gradient-to-bl"

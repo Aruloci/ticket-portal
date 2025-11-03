@@ -64,13 +64,25 @@
 }
 
 @layer utilities {
-  .dark .dark\:bg-slate-700 {
-    --tw-bg-opacity: 1;
-    background-color: rgb(25 27 30 / var(--tw-bg-opacity)) !important;
-  }
+	.dark .dark\:bg-slate-700 {
+		--tw-bg-opacity: 1;
+		background-color: rgb(25 27 30 / var(--tw-bg-opacity)) !important;
+	}
 
-  .dark .dark\:bg-slate-800 {
-    --tw-bg-opacity: 1;
-    background-color: rgb(31 34 38 / var(--tw-bg-opacity)) !important;
-  }
+	.dark .dark\:bg-slate-800 {
+		--tw-bg-opacity: 1;
+		background-color: rgb(31 34 38 / var(--tw-bg-opacity)) !important;
+	}
+
+	.bg-ignis-light {
+		background-image: linear-gradient(to bottom,
+				hsla(20, 87%, 53%, 1) 1%,
+				hsla(34, 94%, 59%, 1) 90%);
+	}
+
+	.bg-ignis-dark {
+		background-image: linear-gradient(to top,
+				hsla(21, 87%, 54%, 1) 0%,
+				hsla(0, 0%, 7%, 1) 90%);
+	}
 }
