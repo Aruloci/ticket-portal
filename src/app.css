@@ -74,6 +74,11 @@
 		background-color: rgb(31 34 38 / var(--tw-bg-opacity)) !important;
 	}
 
+	.input:is(.dark *) {
+		--tw-bg-opacity: 1;
+		background-color: rgb(31 34 38 / var(--tw-bg-opacity)) !important;
+	}
+
 	.bg-ignis-light {
 		background-image: linear-gradient(to bottom,
 				hsla(20, 87%, 53%, 1) 1%,
