@@ -52,7 +52,7 @@
 	<link rel="icon" href="/favicon.png" />
 </svelte:head>
 
-<div class="absolute h-max min-h-screen w-full bg-gray-200 dark:bg-slate-900">
+<div class="absolute h-max min-h-screen w-full" style={`background-image: url("/assets/topgg-${theme}.webp")`}>
 	<Modals>
 		{#snippet backdrop({ close })}
 			<div
