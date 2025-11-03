@@ -151,7 +151,7 @@
 	};
 </script>
 
-<div class="mb-8 text-center text-orange-600 dark:text-orange-400">
+<div class="mb-8 text-center text-orange-800 dark:text-orange-400">
 	<p>
 		<i class="fa-solid fa-triangle-exclamation"></i>
 		<a href="https://discordtickets.app/configuration/tags" class="font-semibold hover:underline"
