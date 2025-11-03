@@ -82,7 +82,7 @@
 
 {#snippet warning(message)}
 	<div
-		class="rounded-xl border-2 border-orange-600 bg-orange-400/20 p-2 font-medium text-orange-600 dark:border-orange-400 dark:bg-orange-500/20 dark:text-orange-400"
+		class="rounded-xl border-2 border-orange-600 bg-orange-400/20 p-2 font-medium dark:border-orange-400 dark:bg-orange-500/20 dark:text-orange-400"
 	>
 		<div class="flex items-center gap-2">
 			<i class="fa-solid fa-triangle-exclamation mx-2 text-2xl"></i>
@@ -183,19 +183,19 @@
 												{size} MB
 											</span>
 											<span
-												class={`flex items-center gap-4 ${sameVersion ? 'text-green-600 dark:text-green-400' : 'text-orange-600 dark:text-orange-400'}`}
+												class={`flex items-center gap-4 ${sameVersion ? 'text-green-600 dark:text-green-400' : 'dark:text-orange-400'}`}
 											>
 												<i class="fa-solid fa-code-branch"></i>
 												Version {comment?.version || 'unknown'}
 											</span>
 											{#if comment && !sameClient}
-												<span class="flex items-center gap-4 text-orange-600 dark:text-orange-400">
+												<span class="flex items-center gap-4 dark:text-orange-400">
 													<i class="fa-solid fa-fingerprint"></i>
 													Exported from a different instance
 												</span>
 											{/if}
 											{#if comment && !sameGuild}
-												<span class="flex items-center gap-4 text-orange-600 dark:text-orange-400">
+												<span class="flex items-center gap-4 dark:text-orange-400">
 													<i class="fa-solid fa-server"></i>
 													Exported from a different guild
 												</span>

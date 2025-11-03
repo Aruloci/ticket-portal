@@ -39,7 +39,7 @@
 		{#each problems as p}
 			<div class="m-4">
 				<div
-					class="rounded-xl border-2 border-orange-600 bg-orange-400/20 p-2 font-medium text-orange-600 dark:border-orange-400 dark:bg-orange-500/20 dark:text-orange-400"
+					class="rounded-xl border-2 border-orange-600 bg-orange-400/20 p-2 font-medium dark:border-orange-400 dark:bg-orange-500/20 dark:text-orange-400"
 				>
 					<div class="flex items-center gap-2">
 						<i class="fa-solid fa-triangle-exclamation mx-2 text-2xl"></i>

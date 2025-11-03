@@ -100,7 +100,7 @@
 	{#if error}
 		<ErrorBox {error} />
 	{/if}
-	<div class="mb-8 text-center text-orange-800 dark:text-orange-400">
+	<div class="mb-8 text-center dark:text-orange-400">
 		<p class="font-semibold"><i class="fa-solid fa-triangle-exclamation"></i> Warning</p>
 		<p>
 			This page is made to be "just about functional".
