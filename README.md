@@ -1,6 +1,7 @@
 # Discord Tickets Portal
 
 A web app for interacting with the [Discord Tickets](https://discordtickets.app) bot via the API.
+Adjusted for use on IGNIS.
 
 > [!NOTE]
 >
