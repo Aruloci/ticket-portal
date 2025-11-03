@@ -20,7 +20,7 @@
 	style={`background-image: url("/assets/topgg-${theme}.webp")`}
 >
 	<div
-		class="min-h-screen bg-gradient-to-bl from-blurple/50 to-white/10 dark:from-blurple/25 dark:to-blurple/5"
+		class="min-h-screen bg-gradient-to-bl"
 	>
 		<div class="flex flex-col gap-0 backdrop-blur-sm lg:flex-row">
 			<div class="lg:min-h-screen lg:w-1/2">
@@ -28,7 +28,7 @@
 				<div class="flex justify-center p-8 lg:min-h-screen">
 					<div class="flex items-center gap-8">
 						<img src={`${client.avatar}?size=512`} alt="" class="h-24 w-24 rounded-full" />
-						<h1 class="text-2xl font-bold lg:text-4xl">{client.username}</h1>
+						<h1 class="text-2xl font-bold lg:text-4xl">IGNIS Tickets</h1>
 					</div>
 				</div>
 			</div>

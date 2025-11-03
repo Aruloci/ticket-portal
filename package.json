@@ -1,7 +1,7 @@
 {
 	"name": "@discord-tickets/settings",
 	"private": false,
-	"version": "2.5.5",
+	"version": "2.5.5-ignis",
 	"main": "build/index.js",
 	"type": "module",
 	"files": [
